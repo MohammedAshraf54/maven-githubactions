@@ -7,7 +7,11 @@ public class AppTest {
 
     @Test
     void testAddition() {
-        int result = App.add(2, 3);
-        assertEquals(5, result);
+        assertEquals(5, App.add(2, 3));
+    }
+
+    @Test
+    void testNegative() {
+        assertEquals(-1, App.add(2, -3));
     }
 }
