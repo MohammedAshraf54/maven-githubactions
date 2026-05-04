@@ -10,7 +10,7 @@ env:
 
 jobs:
   build-test:
-    runs-on: ec2
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Code
