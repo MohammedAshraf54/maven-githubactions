@@ -16,4 +16,4 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
       - name: working dir
-        run: echo "the user is ${{ github.action_repository }} "
+        run: echo "the user is ${{ github.repository }} "
