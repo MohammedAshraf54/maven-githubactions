@@ -17,7 +17,3 @@ jobs:
         uses: actions/checkout@v4
       - name: working dir
         run: echo "the user is $user "
-
-     
-          name: app-jar
-          path: target/*.jar
