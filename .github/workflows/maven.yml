@@ -10,10 +10,9 @@ env:
 
 jobs:
   build-test:
+    if: github.repository == 'bhuvan/maven-githubactions'
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
-      - name: working dir
-        run: echo "the user is ${{ github.repository }} "
